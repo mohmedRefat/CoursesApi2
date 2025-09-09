@@ -4,6 +4,7 @@ const { validationResult } = require("express-validator");
 const getAllCourses = (req, res) => {
   res.json(courses);
 };
+//* add comments
 
 const getSingleCourse = (req, res) => {
   let courseId = +req.params.courseId;
